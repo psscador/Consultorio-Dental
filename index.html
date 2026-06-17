@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Inicio | Consultorio Dental</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="Logo Consultorio Dental" class="logo-img">
+            <div class="logo-texto">
+                <h1>Consultorio<span> Dental</span></h1>
+                <p>Excelencia en salud bucal</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="ubicacion.html">Ubicación</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="menu-movil" id="menu-movil">☰</div>
+    </div>
+</header>
+
+<!-- Hero principal con parallax -->
+<section class="hero">
+    <div class="hero-contenido">
+        <h2>Tecnología y calidez humana</h2>
+        <p>Más de 8 años devolviendo sonrisas con profesionalismo</p>
+        <a href="contacto.html" class="btn-primario">Agenda tu cita</a>
+    </div>
+</section>
+
+<!-- Beneficios + Estadísticas integradas (sin barra gris) -->
+<section class="seccion">
+    <div class="container">
+        <h2 class="titulo-seccion">¿Por qué elegirnos?</h2>
+
+        <!-- Grid de beneficios (icono + título + texto) -->
+        <div class="beneficios-grid">
+            <div class="beneficio">
+                <i class="fas fa-microscope"></i>
+                <h3>Tecnología avanzada</h3>
+                <p>Equipos de última generación para diagnósticos precisos y tratamientos indoloros.</p>
+            </div>
+            <div class="beneficio">
+                <i class="fas fa-calendar-check"></i>
+                <h3>Atención rápida</h3>
+                <p>Sin largas esperas. Te atendemos en el horario que elijas, respetando tu tiempo.</p>
+            </div>
+            <div class="beneficio">
+                <i class="fas fa-smile"></i>
+                <h3>Trato humano</h3>
+                <p>Nos preocupamos por tu bienestar, no solo por tus dientes. Escuchamos tus necesidades.</p>
+            </div>
+            <div class="beneficio">
+                <i class="fas fa-hand-holding-heart"></i>
+                <h3>Precios justos</h3>
+                <p>Planes de pago y financiamiento sin intereses. Odontología accesible para todos.</p>
+            </div>
+        </div>
+
+        <!-- Estadísticas ahora aquí abajo, integradas -->
+        <div class="estadisticas-integrado">
+            <div class="estadisticas-grid">
+                <div class="estadistica">
+                    <span class="numero"></span>
+                    <span class="texto"></span>
+                </div>
+                <div class="estadistica">
+                    <span class="numero"></span>
+                    <span class="texto"></span>
+                </div>
+                <div class="estadistica">
+                    <span class="numero"></span>
+                    <span class="texto"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Preguntas frecuentes -->
+<section class="seccion">
+    <div class="container">
+        <h2 class="titulo-seccion">Preguntas frecuentes</h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <div class="faq-pregunta">
+                    <i class="fas fa-question-circle"></i>
+                    <h3>¿Duele el tratamiento?</h3>
+                </div>
+                <div class="faq-respuesta">
+                    <p>No, utilizamos anestesia de última generación y técnicas indoloras. La mayoría de nuestros pacientes no siente molestias durante los procedimientos.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-pregunta">
+                    <i class="fas fa-question-circle"></i>
+                    <h3>¿Cuánto dura una limpieza dental?</h3>
+                </div>
+                <div class="faq-respuesta">
+                    <p>Aproximadamente 40 minutos. Incluye revisión completa, limpieza profunda y aplicación de flúor para prevenir caries.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-pregunta">
+                    <i class="fas fa-question-circle"></i>
+                    <h3>¿Aceptan seguro dental?</h3>
+                </div>
+                <div class="faq-respuesta">
+                    <p>Sí, trabajamos con los principales seguros dentales. Consulta tu póliza con nosotros y te ayudamos a aplicar los beneficios.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-pregunta">
+                    <i class="fas fa-question-circle"></i>
+                    <h3>¿Cada cuánto debo ir al dentista?</h3>
+                </div>
+                <div class="faq-respuesta">
+                    <p>Recomendamos una visita cada 6 meses para revisión y limpieza profesional. La prevención es clave para una sonrisa saludable.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Llamada a la acción (sin parallax, estilo simple) -->
+<section class="cta-simple">
+    <div class="container">
+        <h2>¿Listo para sonreír con confianza?</h2>
+        <p>Agenda tu primera consulta y recibe una evaluación profesional personalizada.</p>
+        <a href="contacto.html" class="btn-primario">Agendar cita <i class="fas fa-arrow-right"></i></a>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Consultorio Dental – Profesionalismo y confianza.</p>
+        <div class="redes">
+            <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

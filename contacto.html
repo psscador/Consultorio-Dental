@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Consultorio Dental</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="Logo" class="logo-img">
+            <div class="logo-texto">
+                <h1>Consultorio<span> Dental</span></h1>
+                <p>Excelencia en salud bucal</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="ubicacion.html">Ubicación</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="menu-movil" id="menu-movil">☰</div>
+    </div>
+</header>
+
+<section class="hero-contacto">
+    <div class="hero-contenido">
+        <h2>Contáctanos</h2>
+        <p>Estamos para ayudarte, agenda tu cita o resuelve tus dudas</p>
+    </div>
+</section>
+
+<section class="seccion">
+    <div class="container">
+        <div class="contacto-grid">
+            <div class="formulario-contacto">
+                <h3><i class="fas fa-envelope"></i> Envíanos un mensaje</h3>
+                <form id="form-contacto">
+                    <div class="form-grupo"><i class="fas fa-user"></i><input type="text" id="nombre" placeholder="Nombre completo" required></div>
+                    <div class="form-grupo"><i class="fas fa-envelope"></i><input type="email" id="email" placeholder="Correo electrónico" required></div>
+                    <div class="form-grupo"><i class="fas fa-phone"></i><input type="tel" id="telefono" placeholder="Teléfono"></div>
+                    <div class="form-grupo"><i class="fas fa-comment"></i><select id="asunto"><option value="">Selecciona un asunto</option><option>Agendar cita</option><option>Duda sobre tratamiento</option><option>Queja o sugerencia</option><option>Cotización</option></select></div>
+                    <div class="form-grupo"><i class="fas fa-pencil-alt"></i><textarea id="mensaje" rows="4" placeholder="¿En qué te podemos ayudar?"></textarea></div>
+                    <button type="submit" class="btn-primario">Enviar mensaje <i class="fas fa-paper-plane"></i></button>
+                    <p id="respuesta-form" style="margin-top:1rem; text-align:center"></p>
+                </form>
+            </div>
+            <div class="info-contacto">
+                <h3><i class="fas fa-address-card"></i> Otras formas de contacto</h3>
+                <div class="contacto-item"><i class="fas fa-phone-alt"></i><div><strong>Teléfono</strong><p>55 8615 9735</p><span>Lunes a Viernes 9:30 - 20:30</span></div></div>
+                <div class="contacto-item"><i class="fab fa-whatsapp"></i><div><strong>WhatsApp</strong><p>55 8615 9735</p><span>Respuesta rápida en horario laboral</span></div></div>
+                <div class="contacto-item"><i class="fas fa-envelope"></i><div><strong>Correo electrónico</strong><p>any.boni.odonto@gmail.com</p><span>Respondemos en menos de 24h</span></div></div>
+                <div class="contacto-item"><i class="fas fa-clock"></i><div><strong>Horario de atención</strong><p>L-V 9:30-20:30<br>Sáb 9:30-14:30</p></div></div>
+                <div class="redes-sociales"><h4>Escribenos al número</h4><a href="#"><i class="fab fa-whatsapp"></i> WhatsApp: 55 8615 9735 </a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="seccion fondo-claro">
+    <div class="container">
+        <div class="mapa-mini">
+            <h3><i class="fas fa-map-marked-alt"></i> Visítanos en nuestra clínica</h3>
+            <div class="mapa-wrapper"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.0248888533424!2d-99.01874602500787!3d19.626233681694966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f104c7d657c3%3A0x801d7cba22b5bb3d!2sUnidad%20M%C3%A9dica%20Hannover!5e0!3m2!1ses!2smx!4v1776905349862!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <p class="direccion-mini"><i class="fas fa-location-dot"></i> C. Emiliano Zapata Sector 26, Mz. 78, Lt. 14, Cs. 3, 6ta Secc. Los Héroes Tecámac, C.P. 55763</p>
+            <a href="ubicacion.html" class="btn-secundario">Ver ubicación completa →</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Consultorio Dental – Profesionalismo y confianza.</p>
+        <div class="redes">
+            <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
