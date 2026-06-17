@@ -855,3 +855,27 @@ footer a {
 .miembro-centrado p {
     text-align: center;
 }
+
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.redes {
+    margin-top: 15px;
+}
+
+.redes a {
+    color: #f5b52e;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.redes a:hover {
+    color: white;
+}
